@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <title>The Decentralized Post</title>
+    <meta charset="UTF-8" />
+    <meta name="Products" content="Product page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Homepage to The decentralized post. Here you can find the most up to date news">
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="pictures/header/logo.png">
+    <script
+      src="https://kit.fontawesome.com/e92e9edbfb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Hotjar Tracking Code for https://thedecentralizedpost.netlify.app/ -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:2413524,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+  </head>
+  <body>
+    <header>
+    <nav class="nav-container">
+      <div class="navbar">
+        <h3 id="navbar-logo" class="header_hone"><a href="index.html">
+          <img class="logopic" src="pictures/header/logo.png" alt="" />The Decentralized Post
+        </a></h3>
+        <div class="menu-toggle" id="phone_hamburger">
+          <span class="phone_x"></span>
+          <span class="phone_x"></span>
+          <span class="phone_x"></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-links" id="nav_home">Home</a></li>
+          <li><a href="html/blog.html" class="nav-links">Blog</a></li>
+          <li><a href="html/about.html" class="nav-links">About</a></li>
+          <li><a href="html/contact.html" class="nav-links">Contact</a></li>
+          <li><div class="mode_button">
+            <label class="button_two" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="move dot"></div>
+          </label>
+        </div></li>
+        </ul>
+      </div>
+  </nav>
+</header>
+    <main>
+    <div id="live-price-container" class="live-price-container">
+      <div id="live-price" class="live-price"></div>
+    </div>
+    <div class="body">
+      <div class="core_space">
+       <h2 class="margin-h2 full-width latest-posts">Latest Posts</h2>
+       <div class="outer-container">
+          <a class="pointer_right" onclick="arrowRight()"><i class="fas fa-chevron-right fa-4x"></i></a>
+          <a class="pointer_left" onclick="arrowLeft()"><i class="fas fa-chevron-left fa-4x"></i></a>
+          <div class="carousel_box"></div>
+       </div>
+      </div>
+      <div  class="load-more-wrap">
+        <a href="/html/blog.html"><button>See all Posts</button></a>
+       </div>
+    </div>
+    </main>
+    <footer>
+      <div class="top-footer">
+        <div class="top-footer-center">
+          <h2 class="form-heading">THE DECENTRALIZED POST</h2>
+          <div class="front_intro_box">
+            <p class="front_intro_text">The Decentralized Post is your number 1 sorce for daily crypto News!</p>
+            <img class="front_intro" src="pictures/Asset 1.png" alt="">
+          </div>
+          <form action="index.html" method="get">
+            <label for="email"></label>
+            <input
+              name="email"
+              id="email"
+              type="email"
+              required
+              placeholder="Email"
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="bottom-fotter">
+        <div><p>Follow US</p></div>
+        <div class="bot_i">
+        <i class="fab fa-telegram-plane fa-2x"></i>
+        <i class="fab fa-twitter fa-2x"></i>
+        <i class="fab fa-facebook-f fa-2x"></i>
+        <i class="fab fa-instagram fa-2x"></i>
+        <i class="far fa-envelope fa-2x"></i>
+      </div>
+      </div>
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="js/frontblog.js"></script>
+    <script src="js/coingeckoSpesific.js"></script>
+    <script src="js/switch.js"></script>
+  </body>
+</html>
